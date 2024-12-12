@@ -1,0 +1,5 @@
+#ignore build
+*.exe
+
+#ignore vscode
+/.vscode
