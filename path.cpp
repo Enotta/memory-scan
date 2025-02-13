@@ -2,8 +2,15 @@
 
 Path::Path(std::string path) {
     this->value = path;
+    this->children = std::vector<Path*>();
     this->type = PathType::Unknown;
     this->content_size = 0.0;
+}
+
+Path::~Path() {
+    for (int i = 0; i < this->children.size(); ++i) {
+        delete this->children[i];
+    }
 }
 
 void Path::trim() {

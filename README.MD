@@ -1,1 +1,5 @@
-# Program that allows to view content recursively size of the content in any directory
+# Memory-scan
+Проект для проверки работы с файловой системой на C++
+
+# Руководство пользователя:
+Скомпилировать проект, используя любой доступный компилятор C++. Запустить приложение main.exe, следовать инструкциям внутри приложения.
